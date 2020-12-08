@@ -13,4 +13,207 @@ a {
 
 * {
   box-sizing: border-box;
+
+}
+/* footer */
+.Footer {
+  background: url(../public/Group\ 40\ .png) center / cover no-repeat;
+  height: 120vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2 ,1fr);
+
+}
+.we{
+  margin: 20% 0% 0% 15%;
+  border-left: 5px solid #EE4D47;
+}
+
+.we ul{
+  display: flex;
+  list-style-type: none;
+
+}
+
+.Footertext{
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  width: 26%;
+}
+
+.getstarted a::after {
+  content: url(../public/Union.svg);
+  margin-left: 2%;
+} 
+  
+
+
+.getstarted{
+  width: 20%;
+  background-color: #EE4D47;
+  color: white;
+
+  text-align: center;
+  font-size: 25px;
+  margin-left: 22%;
+  border-radius: 5%;
+  padding-top: 1%;
+
+
+
+
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ee4d47;
+  padding: 2% 4%;
+  border-radius: 5px;
+  font-family: "Rubik", sans-serif;
+
+
+  
+}
+.footerNav{
+  display: flex;
+  padding-top: 18%;
+}
+
+.footerNav ul{
+  list-style-type: none;
+  padding-top: 2%;
+  margin-left: 30%;
+  width: 30%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.footerNav h1{
+  color: white;
+  padding-left: 15%;
+}
+
+.footerNav h1::before{
+  content: url(../public/Group\ 36.png);
+}
+
+
+
+/* NAV */
+
+   
+   
+   
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+width: 70%;
+margin-left: 10%;
+  
+}
+nav li a{
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+
+}
+
+
+.TRFIKO
+{
+  
+ margin-top: -10%;
+}
+
+.TRFIKO::before
+{
+  
+  content: url(../public/Group\ 36.png);
+  width: 50%;
+}
+
+section
+{
+  background: url(../public/Scene\ 1.jpg) center / cover no-repeat;
+  height: 120vh;
+  width: 100%;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+button
+{
+  height: 4vh;
+  background: #EE4D47;
+  border-radius: 5px;
+  border: none;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-top: -3%;
+}
+nav ul
+{
+  padding-top: 1%;
+  color: #FFFFFF;
+}
+
+.awesome h2
+{
+  margin-left: 12%;
+  margin-top: 10%;
+  font-family: DM Serif Display;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 100%;
+/* or 100px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.get
+{
+  margin-left: 13%;
+  width: 10%;
+  text-align: center;
+  font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.get::after
+{
+  content: url(../public/Union.svg);
+  margin-left: 2%;
+  margin-top: 3px;
+  text-align: center;
+}
+.car
+{
+  background-image: url(../public/mobel.png) center / cover no-repeat;
+
+width: 40%;
+ height: 30vh;
 }
