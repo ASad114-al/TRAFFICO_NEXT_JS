@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Naviagation = () => {
     return (
-      <section>
+      <section className='Naviagation'>
       <section>
         <nav >
             <ul>
