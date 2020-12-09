@@ -101,14 +101,7 @@ a {
 
 
 
-/* NAV */
-.Naviagation
-{
-  background:red
-}
-   
-   
-   
+/* NAV */   
 nav ul{
   display: flex;
   justify-content: space-between;
